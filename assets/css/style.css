@@ -1607,7 +1607,8 @@ section {
   padding: 1.6rem;
   display: table;
   overflow: hidden;
-  background-color: var(--white);
+  background-color: #000000;
+  border-radius: 1rem;
 }
 
 .popup-close {
@@ -1618,14 +1619,14 @@ section {
   top: 2rem;
   right: 2rem;
   padding: 0.5rem;
-  background-color: var(--green);
+  background-color: #ffca6e;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .popup-close {
   font-size: 3rem;
-  color: white;
+  color: black;
 }
 
 .popup-left {
@@ -1664,7 +1665,7 @@ section {
 
 .right-content h1 {
   font-size: 4rem;
-  color: #000;
+  color: #fff;
   margin-bottom: 1.6rem;
 }
 
@@ -1674,7 +1675,7 @@ section {
 
 .right-content p {
   font-size: 1.6rem;
-  color: #555;
+  color: #fff;
   margin-bottom: 1.6rem;
 }
 
@@ -1771,6 +1772,7 @@ section {
 }
 
 @media only screen and (max-width: 568px) {
+  
   .popup-right {
     padding: 0 1.6rem;
   }
@@ -1810,3 +1812,6 @@ section {
     padding: 0.5rem;
   }
 }
+
+
+
